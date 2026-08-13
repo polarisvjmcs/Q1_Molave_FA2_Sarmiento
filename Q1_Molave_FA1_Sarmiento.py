@@ -1,10 +1,12 @@
 
 import math
+# Asks user to input the values of the following:
 x1 = float(input("What is x1's value?"  ))
 y1 = float(input("What is y1's value?"  ))
 x2 = float(input("What is x2's value?"  ))
 y2 = float(input("What is y2's value?"  ))
 
+# Code takes those values and solves them using the formula below:
 num = (math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2)))
 print("The distance between (x1, y1) and (x2, y2) is", num)
 
