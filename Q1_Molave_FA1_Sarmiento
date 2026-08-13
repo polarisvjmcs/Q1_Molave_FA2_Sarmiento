@@ -1,0 +1,14 @@
+
+import math
+x1 = float(input("What is x1's value?"  ))
+y1 = float(input("What is y1's value?"  ))
+x2 = float(input("What is x2's value?"  ))
+y2 = float(input("What is y2's value?"  ))
+
+num = (math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2)))
+print("The distance between (x1, y1) and (x2, y2) is", num)
+
+"""
+It was hard for me to get the hang of it due to me not memorizing the codes and lines, but  in the end I eventually figured it out with the helop of the library. 
+Libraries are easier to use rather than writing all the code from scratch, due to it having bulit-in ready-made tools to work with to program easier.
+""" 
