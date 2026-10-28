@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN23tFaa5K7M+/Gxg7Es4cP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/polarisvjmcs/Q1_Molave_FA2_Sarmiento/blob/main/practice.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "mfSYm8DtH6dF"
+      },
+      "outputs": [],
+      "source": [
+        "def check_goal(total, target):\n",
+        "  while True:\n",
+        "    target = float(input(\"Enter your savings target:\", ))\n",
+        "\n",
+        "    if target =< total:\n",
+        "      print(\"Goal reached!\")\n",
+        "      break\n",
+        "    else:\n",
+        "      print(input(\"Keep saving!\", ))\n",
+        "\n",
+        "      def update_savings(current_total, deposit):\n",
+        "        while True:\n",
+        "          deposit = input(\"Enter your desired deposit:\", )\n",
+        "\n",
+        "        if deposit == 0:\n",
+        "          print(\"Thank you for your transactions.\")\n",
+        "        break\n",
+        "        else:\n",
+        "          print(input(\"Add more to your funds?\", ))\n",
+        "\n",
+        "        current_total = right_now + deposit\n",
+        "      return True\n",
+        "\n",
+        "return True\n",
+        "\n"
+      ]
+    }
+  ]
+}
